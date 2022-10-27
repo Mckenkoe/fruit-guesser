@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="main-center">
+        <div class="picture">
+            <!-- <h1 id="hidden" style="display: none;" onmouseover="hide()">I'm a watermelon</h1> -->
+            <img id="beginimg" src="images/begin.png" alt="click to begin" onclick="begin()">
+            <img id="toChange" src="https://i5.peapod.com/c/6H/6HFEA.jpg" alt="" style="display: none;">
+        </div>
+
+        <div id="prompt">
+            <h3>What fruit is this?</h3>
+            <input type="text" id="guess" name="guess">
+        </div>
+
+        <div class="butt">
+            <p id="result"></p>
+            <button id="but" type="submit" class="btn btn-light" onclick="guess()">Submit</button>
+            <!-- <input type="submit" id="but" class="btn btn-light"> -->
+            
+        </div>
+       
+        
+    </div>
+    
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> -->
+    <!-- <script src="js/script.js"></script> -->
+</body>
+<script src="js/script.js"></script>
+</html>

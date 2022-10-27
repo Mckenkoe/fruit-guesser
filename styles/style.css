@@ -1,0 +1,69 @@
+body{
+    background-color: #BCE29E;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+
+body{
+   background-image: url("https://wallpaperaccess.com/full/1882035.jpg"); 
+}
+
+.main-center{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 75px;
+    height: 500px;
+    width:550px;
+    background-color: #FF8787;
+    border-radius: 25px;
+    color: white;
+}
+
+.picture{
+    margin: auto;
+    padding: 25px;
+    height: 50%;
+    /* height: 350px;
+    width: 400px; */
+    text-align: center;
+}
+
+#prompt{
+    margin: auto;
+    padding: 25px;
+    padding-bottom: 10px;
+    height: 30%;
+}
+
+#prompt > h3{
+    margin: 25px auto 0px;
+    padding: 15px auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+#guess{
+    margin: 10px auto;
+    /* padding: 20px; */
+    height: 40px;
+    width: 250px;
+}
+
+.butt{
+    /* margin: 25px auto; */
+    /* padding: 15px; */
+    height: 20%;
+    text-align: center;
+}
+
+#result{
+    margin-bottom: 5px ;
+    font-size: 19px;
+}
+
