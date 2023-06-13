@@ -3,14 +3,36 @@ body{
     margin: 0;
     padding: 0;
     height: 100%;
+    background-image: url("https://wallpaperaccess.com/full/1882035.jpg"); 
+    /* background-image: url(/images/background.png); */
 }
+
 img{
     height: 250px;
     width: 250px;
 }
 
-body{
-   background-image: url("https://wallpaperaccess.com/full/1882035.jpg"); 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #feb4b4;
+}
+
+.container{
+    background-color: #FF8787;
+    height: 90vh;
+    width: 100vw;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+.container > h1{
+    color:white;
+    font-size: 75px;
 }
 
 .main-center{
@@ -60,6 +82,37 @@ body{
     /* padding: 15px; */
     height: 20%;
     text-align: center;
+}
+
+.header{
+    position: relative;
+    top:50px;
+    left:25vw;
+}
+
+.back{
+    text-align: center;
+}
+
+.link-box{
+    text-align: center;
+    color: white;
+}
+
+.link-box > a >img{
+    border-radius: 25px;
+}
+
+.link-box:hover{
+    transform: translateY(-5px);
+    box-shadow: 3px #fc9393;
+}
+
+#links{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 125px;
 }
 
 #result{
