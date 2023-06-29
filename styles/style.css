@@ -2,9 +2,10 @@ body{
     background-color: #BCE29E;
     margin: 0;
     padding: 0;
-    height: 100%;
-    background-image: url("https://wallpaperaccess.com/full/1882035.jpg"); 
-    /* background-image: url(/images/background.png); */
+    min-height: 100%;
+    /* background-image: url("https://wallpaperaccess.com/full/1882035.jpg");  */
+    background-image: url("https://products.ls.graphics/mesh-gradients/images/15.-Perfume_1.jpg");
+    background-size: cover;
 }
 
 img{
@@ -18,16 +19,19 @@ a{
 }
 
 a:hover{
-    color: #feb4b4;
+    color: #b78efa;
 }
 
 .container{
-    background-color: #FF8787;
+    background-color: #d5bbff;
     height: 90vh;
     width: 100vw;
     margin: auto;
     margin-top: 50px;
     border-radius: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
 }
 
 .container > h1{
@@ -42,9 +46,12 @@ a:hover{
     margin-top: 75px;
     height: 500px;
     width:550px;
-    background-color: #FF8787;
+    background-color: #d5bbff;
     border-radius: 25px;
     color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
 }
 
 .picture{
@@ -88,10 +95,12 @@ a:hover{
     position: relative;
     top:50px;
     left:25vw;
+    font-style: oblique;
 }
 
 .back{
     text-align: center;
+    margin: 10px;
 }
 
 .link-box{
@@ -101,11 +110,14 @@ a:hover{
 
 .link-box > a >img{
     border-radius: 25px;
+    border-color: white;
+    border-width: 10px;
+    border-style: solid;
 }
 
 .link-box:hover{
     transform: translateY(-5px);
-    box-shadow: 3px #fc9393;
+    box-shadow: 3px #ffa6bb;
 }
 
 #links{
