@@ -32,6 +32,7 @@ document.getElementById("toChange").addEventListener("click", change);
 //inializes currentFruit to the first fruit's name, orange
 var count = 0;
 var currentFruit = orange.name;
+currentFruit = currentFruit.toLowerCase();
 
 //when image is clicked, the image is changed to another fruit image
 //done by replacing the img id "toChange"'s src to image source of the current fruit object
