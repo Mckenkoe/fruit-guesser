@@ -48,6 +48,7 @@ function change(){
 //taking the input from the text box input, checks to see if the input is same as the object's name
 function guess(){
     var input= document.querySelector("#guess").value;
+    input = input.toLowerCase();
     if(input == currentFruit){
         document.getElementById("result").innerHTML="Correct!!";
     }
@@ -59,3 +60,14 @@ function guess(){
     console.log(input);
     console.log(currentFruit)
 }
+
+// ********** IDEAS ***********
+
+/*
+
+- Make a waiting sign for correct or wrong so the user knows it was changed
+- If you press enter or the button it will go to the next one
+- When you reach the end it tells you how many you got right and wrong
+- If you get all correct there is confetti
+
+*/
